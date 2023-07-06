@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to A.B Enterprise</h1>
+    </header>
+    <section>
+        <h2>Please fill up the form</h2>
+        <form>
+            <label for="name">Your Name :
+                <input type="text" id="name" placeholder="Name">
+            </label>
+            <label for="mail">Your Email :
+                <input type="text" id="email" placeholder="Your mail">
+            </label>
+            <label for="phone">Your Phone :
+                <input type="text" id="phone" placeholder="Your Phone No">
+            </label>
+            <fieldset>
+                <legend>Select any one Shop</legend>
+                <label for="Garments">
+                    <input type="radio" name="Garments" id="Garments">Garments
+                </label>
+                <label for="Hardware">
+                    <input type="radio" name="Hardware" id="Hardware">Hardware
+                </label>
+                <label for="Gold">
+                    <input type="radio" name="Gold" id="Gold">Gold
+                </label>
+                <label for="Suta">
+                    <input type="radio" name="Suta" id="Suta">Suta
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Item & QTY Select</legend>
+                    <label for="item">
+                        <input type="text" placeholder="Item Name-Qty">
+                    </label>
+                    <label for="item">
+                        <input type="text" placeholder="Item Name-Qty">
+                    </label>
+                   <label for="item">
+                    <input type="text" placeholder="Item Name-Qty">
+                   </label>
+                    <label for="item">
+                        <input type="text" placeholder="Item Name-Qty">
+                    </label>                
+            </fieldset>
+        <div id="place-order">
+            <input type="reset" value="Reset">
+            <input type="submit" value="Confirm">
+        </div>
+        </form>
+    </section>
+    
+</body>
+</html>
