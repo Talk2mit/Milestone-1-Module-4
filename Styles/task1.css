@@ -1,0 +1,17 @@
+img{
+    width: auto;
+    height: 200px;
+    padding-top: 15px;
+}
+a{
+    margin-top: 300px;
+}
+div{
+    padding-top: 30px;
+}
+h4{
+    margin-block: 0;
+}
+hr{
+    display: block;
+}
