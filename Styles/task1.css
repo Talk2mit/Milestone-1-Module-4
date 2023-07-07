@@ -15,3 +15,7 @@ h4{
 hr{
     display: block;
 }
+.search{
+    display: flex;
+    flex-direction: column;
+}
